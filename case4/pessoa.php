@@ -2,7 +2,8 @@
     class Pessoa {
       private $nome;
       private $sobrenome;
- 
+      private $idade;
+
       public function __set($atrib, $value){
           $this->$atrib = $value;
       }
